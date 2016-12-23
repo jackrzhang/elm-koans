@@ -11,7 +11,7 @@ testSuite =
     describe "About Regex"
         [ test "contains tests for a regex match" <|
             \() ->
-                xBool
+                True
                     |> Expect.equal (Regex.contains (Regex.regex "[abc]+") "abcdefg")
         , test "escape will escape all special characters" <|
             \() ->

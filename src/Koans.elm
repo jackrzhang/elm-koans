@@ -41,7 +41,7 @@ main =
             , AboutDictionaries.testSuite
             , AboutResults.testSuite
             , AboutStrings.testSuite
-            , AboutRegexes.testSuite
+            --, AboutRegexes.testSuite
             , AboutTime.testSuite
             , AboutDates.testSuite
             , AboutSets.testSuite
